@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 114891099998112114}
+  - {fileID: 114151313722874564}
+  EditorEvents:
+  - {fileID: 114943117957379358}
+  MasterBankRef: {fileID: 114151313722874564}
+  StringsBankRef: {fileID: 114891099998112114}
+  stringsBankWriteTime: 636790133370000000
+  cacheVersion: 2
+--- !u!114 &114109156820407358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Release
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114115569069362646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Release
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114151313722874564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/SpencerBernstein/Audio for Digital Games/HiddenPlace_FMOD/HPSounds/Build/Desktop/Master
+    Bank.bank
+  lastModified: 636790133370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 162368
+  Exists: 1
+--- !u!114 &114173026779256800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Chime
+  guid: c25bdd9fd0e8ae479d273418840e66d8
+  Banks:
+  - {fileID: 114592702188875666}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 114115569069362646}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12400
+--- !u!114 &114334475400210150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/SpencerBernstein/Audio for Digital Games/HiddenPlace_FMOD/HPSounds/Build/Desktop/Master
+    Bank.strings.bank
+  lastModified: 636790133370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 716
+  Exists: 1
+--- !u!114 &114592702188875666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/SpencerBernstein/Audio for Digital Games/HiddenPlace_FMOD/HPSounds/Build/Desktop/Master
+    Bank.bank
+  lastModified: 636790133370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 162368
+  Exists: 1
+--- !u!114 &114891099998112114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/SpencerBernstein/Audio for Digital Games/HiddenPlace_FMOD/HPSounds/Build/Desktop/Master
+    Bank.strings.bank
+  lastModified: 636790133370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 716
+  Exists: 1
+--- !u!114 &114943117957379358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Chime
+  guid: c25bdd9fd0e8ae479d273418840e66d8
+  Banks:
+  - {fileID: 114151313722874564}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 114109156820407358}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12400
